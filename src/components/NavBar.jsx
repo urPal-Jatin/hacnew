@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import './NavBar.css'
 
 function NavBar() {
@@ -36,10 +35,10 @@ function NavBar() {
       
 
       
-      <div >
+      <div>
       <ul>
-            <li><a href="index.html"><button>Ub</button></a></li>
-            <li><a href="index.html"><button>Mayuri</button></a></li>
+            <li className="myr-btn"><a href="index.html">Ub</a></li>
+            <li className="ub-btn"><a href="index.html">Mayuri</a></li>
           
             </ul> 
       </div>
