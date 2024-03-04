@@ -1,5 +1,6 @@
-nav{
-    background-color: #fed7aa;
+.nav {
+    background-color: #e53111;
+    height: 100px; /* Adjust the height of the navigation bar */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -14,69 +15,30 @@ flex-direction: row;
 list-style-type: none;
 }
 
-.list-item-inline {
-    display: inline;
-    padding: 0 0.5rem;
-    text-align: block;
-}
-
-.link {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    margin: auto;
-    margin-bottom: 2rem;
-    cursor: pointer;
-}
-
 .myr-btn{
-    text-decoration: none;
     
-    border-radius: 2rem;
-    background-color: #9B0909;
-    display: block;
-    text-align: center;
-    max-width: 100px;
-}
-
-.ub-btn{
-    text-decoration: none;
+    padding: 1rem;
     
-<<<<<<< Updated upstream
 }
 .dropdown li{
     display: flex;
     flex-direction: column;
     margin-left: 100px;
-    list-style-type: none;  
-}
-.dropdown ul{
+    list-style-type: none;
+  }
+  
+  .dropdown ul {
     display: flex;
     margin-left: 500px;
-    
-
     flex-direction: row;
-   
-    
-    list-style-type: none;  
-}
-/* .dropdown {
+    list-style-type: none;
+  }
+  
+  .dropdown {
     display: flex;
     flex-direction: column;
-    list-style-type: none;  
-} */
-.dropdown {
-    display: flex; /* Show dropdown by default */
-    flex-direction: column;
-    top: calc(10% + 5px); /* Position dropdown below the nav */
-    left: 0; /* Align dropdown with the left side of the nav */
+    top: calc(10% + 5px);
+    left: 0;
     background-color: #ffffff;
     border: 1px solid #f5f2f2;
   }
-=======
-    border-radius: 2rem;
-    background-color: #FDDA16;
-    display: block;
-    text-align: center;
-    max-width: 100px;
-}
->>>>>>> Stashed changes
