@@ -14,10 +14,34 @@ flex-direction: row;
 list-style-type: none;
 }
 
+.list-item-inline {
+    display: inline;
+    padding: 0 0.5rem;
+    text-align: block;
+}
+
+.link {
+    text-decoration: none;
+    padding: 1rem 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
 .myr-btn{
+    text-decoration: none;
     
-    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #9B0909;
+    display: block;
+    text-align: center;
+    max-width: 100px;
+}
+
+.ub-btn{
+    text-decoration: none;
     
+<<<<<<< Updated upstream
 }
 .dropdown li{
     display: flex;
@@ -48,3 +72,11 @@ list-style-type: none;
     background-color: #ffffff;
     border: 1px solid #f5f2f2;
   }
+=======
+    border-radius: 2rem;
+    background-color: #FDDA16;
+    display: block;
+    text-align: center;
+    max-width: 100px;
+}
+>>>>>>> Stashed changes

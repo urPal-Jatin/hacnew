@@ -5,7 +5,7 @@ function NavBar() {
   const [showUbDropdown, setShowUbDropdown] = useState(false);
   const [showMayuriDropdown, setShowMayuriDropdown] = useState(false);
 
-  const Menus = ['home', 'home', 'home', 'home'];
+  const Menus = ['HOME', 'MENU', 'PROGRESS', 'CONTACT'];
 
   const handleMenuClick = (menu) => {
     if (menu === "Ub") {
@@ -52,6 +52,8 @@ function NavBar() {
             <li><a href="#Mayuri" onClick={() => handleMenuClick("Mayuri")}>Mayuri</a></li>
           </ul>
         </div>
+      
+
       </nav>
       {showUbDropdown && (
         <div className="dropdown">
