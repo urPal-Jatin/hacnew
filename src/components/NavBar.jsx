@@ -74,13 +74,11 @@ function NavBar() {
 
       <div className="letter">
 
-      <div className="welcome">
-        <h1>WELCOME </h1>
-        <h1>TO</h1>
-        </div>
-        <div className="mayuri">
-        <h1> MAYURI </h1>
-      </div>
+      
+      <h1>
+      <span>welcome</span>To<span>Mayuri</span>
+      </h1>
+      
       </div>
     </>
   );

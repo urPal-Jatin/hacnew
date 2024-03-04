@@ -76,6 +76,36 @@
   .letter h1 {
     margin: 20px 0; /* Add margin top and bottom */
   }
+
+  .mayuri :hover{
+    background-color: #e53111;
+    transition: ease-in-out;
+  }
   
+  .letter h1 {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  .letter h1 span {
+    transition: 0.5s ease-out;
+  }
+  .letter h1:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .letter h1:hover span:nth-child(1):after {
+    content: "";
+  }
+ .letter  h1:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  .letter h1:hover span {
+    color: #e51616;
+    text-shadow: 0 0 10px #e40909, 0 0 20px #ed2222, 0 0 40px #d42424;
+  }
   
   
