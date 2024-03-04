@@ -47,10 +47,10 @@ function NavBar() {
           </svg>
         </a>
         <div>
-          <ul>
-            <li><a href="#Ub" onClick={() => handleMenuClick("Ub")}>Ub</a></li>
-            <li><a href="#Mayuri" onClick={() => handleMenuClick("Mayuri")}>Mayuri</a></li>
-          </ul>
+        <ul className="ubm">
+         <li><a href="#Ub" onClick={() => handleMenuClick("Ub")} className="nav-button">Ub</a></li>
+         <li><a href="#Mayuri" onClick={() => handleMenuClick("Mayuri")} className="nav-button">Mayuri</a></li>
+        </ul>
         </div>
       </nav>
       {showUbDropdown && (
@@ -71,6 +71,17 @@ function NavBar() {
           </ul>
         </div>
       )}
+
+      <div className="letter">
+
+      <div className="welcome">
+        <h1>WELCOME </h1>
+        <h1>TO</h1>
+        </div>
+        <div className="mayuri">
+        <h1> MAYURI </h1>
+      </div>
+      </div>
     </>
   );
 }
