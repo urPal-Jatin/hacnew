@@ -48,8 +48,8 @@ function NavBar() {
         </a>
         <div>
         <ul className="ubm">
-         <li><a href="#Ub" onClick={() => handleMenuClick("Ub")} className="nav-button">Ub</a></li>
-         <li><a href="#Mayuri" onClick={() => handleMenuClick("Mayuri")} className="nav-button">Mayuri</a></li>
+         <li><a href="#Ub" onClick={() => handleMenuClick("Ub")} className="nav-button"><button>Ub</button></a></li>
+         <li><a href="#Mayuri" onClick={() => handleMenuClick("Mayuri")} className="nav-button"><button>Mayuri</button></a></li>
         </ul>
         </div>
       </nav>
@@ -74,11 +74,11 @@ function NavBar() {
 
       <div className="letter">
 
-      
+      <div className="welcome">
       <h1>
       <span>welcome</span>To<span>Mayuri</span>
       </h1>
-      
+      </div>
       </div>
     </>
   );
