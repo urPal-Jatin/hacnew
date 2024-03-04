@@ -36,10 +36,10 @@ function NavBar() {
       
 
       
-      <div className='h'>
+      <div >
       <ul>
-            <li><a href="index.html">Ub</a></li>
-            <li><a href="index.html">Mayuri</a></li>
+            <li><a href="index.html"><button>Ub</button></a></li>
+            <li><a href="index.html"><button>Mayuri</button></a></li>
           
             </ul> 
       </div>
